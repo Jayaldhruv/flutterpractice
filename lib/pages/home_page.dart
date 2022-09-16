@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
+import '../widgets/drawer.dart';
 
 class Homepage extends StatelessWidget {
-
+  final int days = 30;
+  final String name = "heroheeralal";
   @override
   Widget build(BuildContext context) {
-    const int days = 30;
-    const String name = "heroheeralal";
     return Scaffold(
       appBar: AppBar(
         title: Text("Catalog App"),
@@ -15,7 +15,7 @@ class Homepage extends StatelessWidget {
           child: Text("Welcome to $days of flutter by $name"),
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
