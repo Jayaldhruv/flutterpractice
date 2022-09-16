@@ -20,7 +20,8 @@ class MyDrawer extends StatelessWidget {
                   accountEmail: Text("mtechviral@gmail.com"),
                   currentAccountPicture: CircleAvatar(
                     backgroundImage: NetworkImage(ImageUrl),
-                  )),
+                  ),
+                  ),
             ),
             ListTile(
               leading: Icon(
@@ -31,7 +32,8 @@ class MyDrawer extends StatelessWidget {
                   textScaleFactor: 1.2,
                   style: TextStyle(
                     color: Colors.white,
-                  )),
+                  ),
+                  ),
             ),
             ListTile(
               leading: Icon(
