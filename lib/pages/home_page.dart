@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-class Homepage extends StatelessWidget {
+import '../widgets/drawer.dart';
 
+class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const int days = 30;
@@ -15,7 +16,7 @@ class Homepage extends StatelessWidget {
           child: Text("Welcome to $days of flutter by $name"),
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
